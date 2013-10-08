@@ -14,7 +14,7 @@ This is a coding challenge for a software engineer position with Woboinc.
 ## Challenge description
 Background: Woboinc develops software in Ruby & Javascript.  We primarily use Ruby on Rails and node.js.  For our front-end development we use jQuery and Bootstrap, but are actively pursuing work in AngularJS and Foundation.
 
-Objective: One of our clients wants to build a simple interface for college students to find textbooks for classes in which they are enrolled.  Using the [Amazon Product Advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html), we need you to build a simple search interface.  This interface should search for TEXTBOOKS related to HIGHER EDUCATION.  That is, products suitable for a classroom.  Once searched, the results should be displayed in a simple and easy-to-read manner.
+Objective: One of our clients wants to build a simple interface for college students to find textbooks for classes in which they are enrolled.  Using the [Amazon Product Advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html), we need you to build a simple search interface.  This interface should search for BOOKS only (not other products on Amazon).  That is, products suitable for a classroom.  Once searched, the results should be displayed in a simple and easy-to-read manner.
 
 Indvidual titles in search results should include the following information:
 - Book Title
