@@ -21,3 +21,5 @@ You need to have a Amazon Web Services account to get the access keys. If you do
 4. Save the file and go on
 
 ## Accessing Alexandria
+You can acess Alexandria on your own local server. Or you can put on any hosting server (such as heroku, dreamhost or any other).
+

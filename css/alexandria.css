@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
+
+body{
+    font-family: "Open Sans";
+    font-weight: 300;
+    margin: 0px;
+    border-top: 4px solid #245269;
+    background-image: url('../images/bkg.jpg');
+}
+
+h1, h2, h3, h4{
+    font-weight: 300;
+}
+
+.navbar-default {
+    background-color: ;
+    border-color: "";
+}
+
+.navbar-brand {
+    padding: 5px;
+    height: 61px;
+}
+
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%;
+}
+
+.suggestions {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 7px;
+    float: left;
+    width: 49%;
+    margin: 4px;
+}
+
+.book-image {
+    float: left;
+    padding: 5px;
+    width: 181px;
+    height: 264px;
+    border-radius: 5px;
+    border: solid 0px #ddd;
+    background-position: center;
+    background-size: cover;
+    margin-right: 5px;
+}
