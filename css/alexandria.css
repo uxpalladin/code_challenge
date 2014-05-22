@@ -4,17 +4,31 @@ body{
     font-family: "Open Sans";
     font-weight: 300;
     margin: 0px;
-    border-top: 4px solid #245269;
+    border-top: 4px solid #006666;
     background-image: url('../images/bkg.jpg');
 }
 
 h1, h2, h3, h4{
     font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2 {
+    padding: 30px 0px;
+    text-align: center;
 }
 
-.navbar-default {
-    background-color: ;
-    border-color: "";
+
+h1 {
+    font-size: 35px;
+
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+    padding: 10px 0px;
 }
 
 .navbar-brand {
@@ -41,15 +55,55 @@ main{
     width: 49%;
     margin: 4px;
 }
+.book-image, .row{
+    border-radius: 8px;
+    border: solid 1px #ddd;
+    float: left;
+}
+
 
 .book-image {
-    float: left;
     padding: 5px;
-    width: 181px;
-    height: 264px;
-    border-radius: 5px;
-    border: solid 0px #ddd;
+    width: 129px;
+    height: 211px;
     background-position: center;
     background-size: cover;
-    margin-right: 5px;
+    margin-right: 15px;
+}
+.row {
+    background-color: #fff;
+    padding: 7px;
+    margin: 7px;
+    width: 48%;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+.loading{
+    text-align: center;
+    padding-top: 10%;
+}
+#query{
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 92%;
+}
+.tag, .tag:hover{
+    background-color: #006666;
+    color: #fff;
+    padding: 4px 8px;
+    margin: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline;
+    float: left;
+}
+
+
+#search-field{
+    padding: 20px 0px;
+}
+.alert{
+    width: 98%;
 }

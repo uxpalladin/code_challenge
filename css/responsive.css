@@ -1,0 +1,367 @@
+@media only screen and (max-width: 715px) {
+
+    .nome-cancer {
+        display: block;
+        margin-top: 10px;
+        background: #0184b0;
+        padding: 10px;
+        clear: both;
+        border-radius: 5px;
+        position: relative;
+        left: 0px;
+        width: 80%;
+    }
+
+    .tipo-cancer .combobox-content, .combobox-complemento{
+        background: none;
+    }
+
+    .tipo-cancer .combobox-content .regiao{
+        background: #00a3cf;
+        border-radius: 5px;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .tipo-cancer .combobox-content{
+        width: 100%;
+        height: auto;
+    }
+
+    .header-container {
+        float: none;
+        width: 100%;
+        padding-top: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .conteudo-interno img{
+        float: none;
+    }
+
+    .menu-header, .busca-header {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 100%;
+        padding: 0px !important;
+    }
+
+    .busca-header input[type="text"] {
+        width: 80%;
+    }
+
+    .logo-principal {
+        padding: 35px 0px 30px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 715px){
+    .filtros{
+        display: block;
+        float: none;
+        min-height: 0;
+        padding-bottom: 30px;
+        width: 90%
+    }
+
+    .filtros p, .filtros h3 {
+        padding-left: 16px;
+    }
+
+    .group-noticias {
+        width: 95%;
+    }
+
+    .filtros span {
+        position: relative;
+        top: -2px;
+        left: 3px;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .menu-content li:hover ul, .menu-content li ul {
+        display: none;
+    }
+    .menu-content{
+        width: 100% !important;
+    }
+
+    .menu-content li {
+        padding: 13px 0px !important;
+        margin: 0px !important;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 890px){
+    .menu-content {
+        margin: 0 6%;
+        width: 85%;
+    }
+
+    .right-siga {
+        display: block;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 810px){
+    .menu-content {
+        margin: 0;
+        width: 90%;
+    }
+
+    .medico .text {
+        display: block;
+        font-size: 0.88em;
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .lightbox .lightbox-container {
+        width: 80%;
+        left: 60%;
+    }
+
+    .lightbox-container .lightbox-content {
+        width: 99%;
+    }
+
+    .lightbox .lightbox-container img {
+        width: 99%;
+    }
+
+}
+
+@media only screen and (max-width: 383px){
+    .combobox-content {
+        width: 100%;
+        height: 63px;
+        background: #00a3cf;
+        border-radius: 5px;
+    }
+
+    .combobox-complemento {
+        display: none !important;
+    }
+
+    .combobox-content select {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    #language-selector {
+        margin-right: 15px;
+    }
+    .nossas-clinicas {
+        float: left;
+        margin-left: 10px;
+    }
+
+    #footer{
+        height: 352px;
+    }
+
+    .combobox-complemento {
+        width: 99%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 590px){
+    #footer{
+        height: 528px;
+    }
+
+
+    .diferenciais{
+        border: none;
+        margin-top: 20px;
+        margin-left: 10px
+    }
+
+    .navegacao{
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .conteudo-diferenciais {
+        border: none;
+    }
+}
+@media only screen and (max-width: 653px){
+    .lightbox .lightbox-container{
+        left: 70%;
+    }
+}
+@media only screen and (max-width: 550px){
+    .lateral {
+        display: block;
+        float: none;
+        padding-left: 10px;
+        width: 96%;
+    }
+
+    .lightbox .lightbox-container{
+        left: 80%;
+    }
+
+    .conteudo-interno {
+        min-height: 500px;
+        display: table;
+        width:100%;
+        padding: 10px;
+    }
+
+    .conteudo-interno .imagem-interna {
+        display: block;
+        float: none;
+    }
+    .footer-logos-content {
+        display: none;
+    }
+
+    .terceira-coluna {
+        display: block;
+        float: none;
+        width: 90%;
+    }
+
+
+
+}
+@media only screen and (max-width: 340px){
+    .conteudo-navegacao1, .conteudo-navegacao2 {
+        width: 125px;
+    }
+
+
+}
+
+@media only screen and (max-width: 393px){
+
+    .right-siga {
+        position: relative;
+        top: -7px;
+    }
+
+    .conteudo-navegacao1 {
+        padding-right: 0;
+    }
+
+    .nossas-clinicas img {
+        width: 97%;
+    }
+
+    .banner-conteudo img {
+        width: 95%;
+    }
+
+    .ver-mais{
+        width: 95%;
+    }
+
+    .footer-logos-content {
+        padding-left: 10px;
+    }
+
+    .left.subfooter-text.bold {
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu-principal .menu-content li {
+        float: none;
+        text-align: center;
+        list-style: none;
+        color: #959596;
+        margin-right: 15px;
+        width: 96%;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-bottom: solid 1px #d6d6d6;
+        border-top: 1px solid #cecece;
+    }
+
+    .menu-principal .menu-content li:first-child {
+        border-top: none;
+    }
+
+    .agenda-home, .noticias-home {
+        max-width: 97%;
+        padding-left: 2%;
+    }
+
+    .banner-principal {
+        display: none;
+    }
+
+    .menu-content {
+        padding: 0;
+    }
+
+    .nossas-clinicas{
+        position: realtive;
+        top: 0px;
+        width: 95%;
+    }
+
+    .left.subfooter-text.bold {
+        text-align: center;
+    }
+
+    .cep-telefone {
+        display: none;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 360px){
+    .lightbox.lightbox-detalhes.active .lightbox-container{
+        left: 130% !important;
+    }
+}
+@media only screen and (max-width: 415px){
+    .lightbox.active .lightbox-container{
+        left: 110% !important;
+    }
+}
+@media only screen and (max-width: 493px){
+    .suggestions{
+        width: 97% !important;
+    }
+
+    #query{
+        width: 73%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .row {
+        width: 95%;
+    }
+    .book-image{
+
+    }
+}
+@media only screen and (max-width: 1072px){
+    .conteudo-interno .protocolo.corpo-clinico .item {
+        width: auto;
+    }
+}
+
