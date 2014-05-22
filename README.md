@@ -5,11 +5,17 @@ This is a simple search throught Amazon Web Services using PHP, Twitter Bootstra
 
 ## Pre-reqs
 
-To run Alexandria, you need to install Curl PHP Module. If you don't have Curl installed, you can do it using the follow ways:
+To run Alexandria, you need to install Curl PHP Module. To install, open a terminal and execute the following command, according with your linux distribution:
 
-1. Install via command line on linux
+Debian / Ubuntu
+`
+$sudo apt-get install php5-curl
+`
 
-2. Get via Composer
+Fedora / RedHat / OpenSuse / CentOS
+`
+$sudo yum install php5-curl
+`
 
 You need to have a Amazon Web Services account to get the access keys. If you don't have, access this link and create one.
 
@@ -18,6 +24,13 @@ You need to have a Amazon Web Services account to get the access keys. If you do
 1. Open the folder class
 2. Edit the file "amazon_api_class.php"
 3. Locate these variables and insert your credential values
+
+`
+        private $public_key     = "insert-public-key";
+        private $private_key    = "insert-private-key";
+        private $associate_tag  = "insert-your-associate-tag";
+`
+
 4. Save the file and go on
 
 ## Accessing Alexandria
