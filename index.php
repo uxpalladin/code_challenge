@@ -1,5 +1,5 @@
 <?php
-    $currentTitle = "Alexandria - Searching books like a egyptian";
+    $currentTitle = "Alexandria - Searching books like an egyptian";
     $currentDescription = "Descrição desta página";
     $currentKeywords = "Palavras chaves desta página";
 ?>
