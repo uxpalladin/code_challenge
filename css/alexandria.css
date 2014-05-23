@@ -1,5 +1,5 @@
+/* Generals */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
-
 body{
     font-family: "Open Sans";
     font-weight: 300;
@@ -7,7 +7,6 @@ body{
     border-top: 4px solid #006666;
     background-image: url('../images/bkg.jpg');
 }
-
 h1, h2, h3, h4{
     font-weight: 300;
     padding: 0px;
@@ -17,20 +16,14 @@ h1, h2 {
     padding: 30px 0px;
     text-align: center;
 }
-
-
-h1 {
-    font-size: 35px;
-
-}
-h2 {
-    font-size: 25px;
-}
+h1 { font-size: 35px; }
+h2 { font-size: 25px; }
 h3 {
     font-size: 20px;
     padding: 10px 0px;
 }
 
+/* Bootstrap hacks */
 .navbar-brand {
     padding: 5px;
     height: 61px;
@@ -47,6 +40,7 @@ main{
     width: 93%;
 }
 
+/* Search Elements */
 .suggestions {
     background-color: #fff;
     border-radius: 7px;
@@ -59,8 +53,6 @@ main{
     border: solid 1px #ddd;
     float: left;
 }
-
-
 .book-image {
     padding: 5px;
     width: 129px;
@@ -98,8 +90,6 @@ main{
     display: inline;
     float: left;
 }
-
-
 #search-field{
     padding: 20px 0px;
 }
