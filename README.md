@@ -25,7 +25,7 @@ Fedora / RedHat / OpenSuse / CentOS
 $sudo yum install php5-curl
 `
 
-You need to have a Amazon Web Services account to get the access keys. If you don't have, access this link and create one.
+You need to have a Amazon Web Services account to get the access keys. If you don't have, access [this link](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html) and create one.
 
 
 ## Configure your credentials
